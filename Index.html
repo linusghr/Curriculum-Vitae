@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Lebenslauf</title>
-</head>
-<body>
+<title>HTML Tutorial</title>
+<style type="text/css">
+.main-kasten {
+        font-family: Lobster;
+        width: 68%;
+        height: 200px;
+        background-color: rgb(75, 80, 77);
+    }
 
-<h1>This is a Heading </h1>
-<p>This is a paragraph</p>
+.red-text-groese {
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+    font-size: 60px;
+}
 
-</body>
-</html>
-<style>
-  
+.center {
+display: flex;
+justify-content: center;
+}
+
+.centerlol {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.serkan {
+    font-family: 'Courier New', Courier, monospace;
+    width: 68%;
+    height: 500px;
+    background-color: brown;
+    display: flex;
+}
+.serkanlol {
+    font-family: 'Courier New', Courier, monospace;
+    width: 32%;
+    height: 500px;
+    background-color: indianred;
+    display: flex; 
+}
+.red-text-kleiner {
+    font-family: bold;
+    font-size: 48px;
+    color:rgb(4, 175, 206);
+}
+</style>
+<main> 
+<div class="center">
+        <div class="main-kasten centerlol red-text-groese">Linus Goehringer
+           <div class="main-kasten centerlol red-text-kleiner">Lebenslauf</div>
+        </div>
+        <div class="main-kasten centerlol"></div>
+</div>
+    <div class="center">
+        <div class="serkan centerlol"> asd</div>
+        <div class="serkanlol centerlol">asdf</div> 
+    </div>
+</main>
