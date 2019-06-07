@@ -6,9 +6,15 @@
         font-family: Lobster;
         width: 68%;
         height: 200px;
-        background-color: rgb(75, 80, 77);
+        color:rgb(255, 255, 255);
+        font-family:cursive;
+        font-size: 60px;
     }
-
+.text-mittel {
+        font-family: Lobster;
+        width: 32%;
+        height: 200px;
+}
 .red-text-groese {
     color:rgb(255, 255, 255);
     font-family:cursive;
@@ -19,6 +25,11 @@
 display: flex;
 justify-content: center;
 }
+.center-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .centerlol {
 display: flex;
@@ -26,35 +37,62 @@ justify-content: center;
 align-items: center;
 }
 
+.no-al {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
 .serkan {
     font-family: 'Courier New', Courier, monospace;
     width: 68%;
     height: 500px;
-    background-color: brown;
-    display: flex;
+}.serkan-1 {
+    font-family: 'Courier New', Courier, monospace;
+    width: 68%;
+    font-weight: bold;
+    height: 500px;
+    border-width: 20px;
+    border-style: solid;
 }
+
 .serkanlol {
     font-family: 'Courier New', Courier, monospace;
     width: 32%;
     height: 500px;
-    background-color: indianred;
     display: flex; 
 }
-.red-text-kleiner {
+.color {
     font-family: bold;
     font-size: 48px;
     color:rgb(4, 175, 206);
 }
+.background-white {
+    background-color: white;
+}
+.background-gray {
+    background-color: gray;
+}
+
+h1 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
+    border-radius: 10px;
+}
 </style>
-<main> 
+<main>
 <div class="center">
-        <div class="main-kasten centerlol red-text-groese">Linus Goehringer
-           <div class="main-kasten centerlol red-text-kleiner">Lebenslauf</div>
+        <div class="main-kasten background-gray center-a">Linus Goehringer
         </div>
-        <div class="main-kasten centerlol"></div>
+        <div class="text-mittel background-gray centerlol">Platz für Bild</div>
+</div>
+<div class="center">
+    <div style="border:solid 10p; width: 200px" class=" color serkan-1 background-gray no-al"><h1>Lebenslauf</h1></div>
+    <div class="serkanlol background-gray centerlol">sdsdg</div>
 </div>
     <div class="center">
-        <div class="serkan centerlol"> asd</div>
-        <div class="serkanlol centerlol">asdf</div> 
+        <div class="serkan background-white centerlol"> asd</div>
+        <div class="serkanlol background-white centerlol">asdf</div> 
     </div>
 </main>
